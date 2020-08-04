@@ -3,22 +3,22 @@ NOTE: This repo is a "clone" of the original repo (code is [here](https://github
 # microG-Gapps
 this Magisk module installs:
 
-/system/app:
+#### /system/app:
 - GsmCore
 - Google Calendar Sync
 - Google Contact Sync
 - Nomination Network Location Provider
 - Radiocell Network Location Provider
 
-/system/priv-app:
+#### /system/priv-app:
 - DrodGuard
 - Google PlayStore
 - Gogle Service Framework Proxy
 
-/system/framework:
+#### /system/framework:
 - maps.jar
 
-/system/etc:
+#### /system/etc:
 - permissions configuration
 
 ## Why you may want to use it
