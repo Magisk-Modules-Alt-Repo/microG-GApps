@@ -1,8 +1,8 @@
-NOTE: This repo is a "clone" of the original repo (code is [here](https://github.com/microg)), baed on "com.google.android.gms v0.2.11.202414". 
-
 # microG-Gapps
-this Magisk module installs:
 
+**Summary**: This repo contains microG build assets ([source](https://microg.org/download.html)), it is based on latest stable release "com.google.android.gms v0.2.11.202414". 
+
+module structure:
 #### /system/app:
 - GsmCore
 - Google Calendar Sync
