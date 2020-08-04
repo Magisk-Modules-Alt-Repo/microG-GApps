@@ -2,22 +2,26 @@ NOTE: This repo is a "clone" of the original repo (code is [here](https://github
 
 # microG-Gapps
 this Magisk module installs:
-/system/app
+
+/system/app:
 - GsmCore
 - Google Calendar Sync
 - Google Contact Sync
 - Nomination Network Location Provider
 - Radiocell Network Location Provider
-/system/priv-app
+
+/system/priv-app:
 - DrodGuard
 - Google PlayStore
 - Gogle Service Framework Proxy
-/system/framework
+
+/system/framework:
 - maps.jar
-/system/etc
+
+/system/etc:
 - permissions configuration
 
-# Why you may want to use it
+## Why you may want to use it
 this module helps new user to start using microG, and also helps experienced user in the setup of microG
 mixing Google and Non Google services in order to have the most standard user experience avoiding boring "google service background process" 
 
@@ -25,12 +29,12 @@ mixing Google and Non Google services in order to have the most standard user ex
 ensure the rom you are running allow "signature spoofing"
 supported feature [list](https://github.com/microg/android_packages_apps_GmsCore/wiki/Implementation-Status)
 
-# Installation
+## Installation
 once flashed the module, system reboot then:
 - manually add sync services grants
 - configure microG
 - add your google account
 - Enjoy!
 
-# Credits
+## Credits
 - **microG project** for their awesome work.
