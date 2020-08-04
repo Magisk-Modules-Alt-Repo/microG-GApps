@@ -1,7 +1,7 @@
-NOTE: This repo is a fork of the original repo (code is [here](https://github.com/microg)). 
+NOTE: This repo is a "clone" of the original repo (code is [here](https://github.com/microg)). 
 
 # microG-Gapps
-this Magisk module that installs:
+this Magisk module installs:
 /system/app
 - GsmCore
 - Google Calendar Sync
