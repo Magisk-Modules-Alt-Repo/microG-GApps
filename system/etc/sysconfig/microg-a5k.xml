@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017-2018 ale5000
+     SPDX-License-Identifer: GPL-3.0-or-later
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version, w/ zip exception.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<config>
+    <!-- microG GmsCore must always have network access for GCM. -->
+    <allow-in-power-save package="com.google.android.gms" />
+    <allow-in-data-usage-save package="com.google.android.gms" />
+    <allow-unthrottled-location package="com.google.android.gms" />
+
+    <!-- Ensure app store applications has internet access to manage updates. -->
+    <allow-in-power-save-except-idle package="com.android.vending" />
+    <allow-in-power-save-except-idle package="org.fdroid.fdroid" />
+    <allow-in-power-save-except-idle package="com.aurora.store" />
+    <allow-in-power-save-except-idle package="com.github.yeriomin.yalpstore" />
+
+    <!-- Bare minimum microG components. -->
+    <app-link package="com.google.android.gms" />
+    <app-link package="com.android.vending" />
+
+    <!-- Optional microG components. -->
+    <app-link package="org.microg.gms.droidguard" />
+    <app-link package="com.google.android.gsf" />
+
+    <!-- Uncontrolled access to location for backends. -->
+    <allow-unthrottled-location package="org.openbmap.unifiedNlp" />
+    <allow-unthrottled-location package="org.fitchfamily.android.wifi_backend" />
+    <allow-unthrottled-location package="org.fitchfamily.android.gsmlocation" />
+    <allow-unthrottled-location package="org.microg.nlp.backend.nominatim" />
+    <allow-unthrottled-location package="org.fitchfamily.android.dejavu" />
+    <allow-unthrottled-location package="org.microg.nlp.backend.ichnaea" />
+    <allow-unthrottled-location package="org.microg.nlp.backend.apple" />
+
+    <!-- Apps that have ability to run as system user. -->
+    <system-user-whitelisted-app package="com.google.android.gms" />
+    <system-user-whitelisted-app package="com.google.android.gsf" />
+    <system-user-whitelisted-app package="org.microg.gms.droidguard" />
+    <system-user-whitelisted-app package="org.fdroid.fdroid.privileged" />
+
+    <!-- Third party apps allowed to access the entire private API  -->
+    <hidden-api-whitelisted-app package="com.google.android.gms" />
+</config>
