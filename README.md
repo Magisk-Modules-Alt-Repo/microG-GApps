@@ -27,6 +27,7 @@ mixing Google and Non Google services in order to have the most standard user ex
 
 **Note**:
 ensure the rom you are running allow "signature spoofing"
+
 supported feature [list](https://github.com/microg/android_packages_apps_GmsCore/wiki/Implementation-Status)
 
 ## Installation
