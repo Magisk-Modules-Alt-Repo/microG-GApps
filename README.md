@@ -11,7 +11,7 @@ module structure:
 - Radiocell Network Location Provider
 
 #### /system/priv-app:
-- DrodGuard
+- DroidGuard
 - Google PlayStore
 - Gogle Service Framework Proxy
 
