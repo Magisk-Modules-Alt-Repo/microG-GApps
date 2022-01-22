@@ -1,6 +1,6 @@
 # microG-Gapps
 
-**Summary**: This repo contains microG build assets ([source](https://microg.org/download.html)), it is based on latest stable release "com.google.android.gms v0.2.11.202414". 
+**Summary**: This repo contains microG build assets ([source](https://microg.org/download.html)), it is based on latest stable release "com.google.android.gms **v0.2.22.212658**". 
 
 module structure:
 #### /system/app:
