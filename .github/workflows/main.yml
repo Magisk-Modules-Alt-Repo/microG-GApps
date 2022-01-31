@@ -33,7 +33,7 @@ jobs:
         with:
           draft: false
           prerelease: false
-          tag_name: ${{ github.ref }}
+          tag_name: ${{ steps.mVersion.outputs.version }}
           release_name: Release v${{ steps.mVersion.outputs.version }}
       - name: Upload Release Asset
         id: upload-release-asset 
