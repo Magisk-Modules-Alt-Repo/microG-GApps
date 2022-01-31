@@ -1,6 +1,6 @@
 # microG-Gapps
 
-**Summary**: This repo contains microG build assets ([source](https://microg.org/download.html)), it is based on latest stable release "com.google.android.gms **v0.2.22.212658**". 
+**Summary**: This repo contains microG build assets ([source](https://microg.org/download.html)), it is based on latest stable release "com.google.android.gms **v0.2.23.214816**". 
 
 module structure:
 #### /system/app:
@@ -39,3 +39,4 @@ once flashed the module, system reboot then:
 
 ## Credits
 - **microG project** for their awesome work.
+
