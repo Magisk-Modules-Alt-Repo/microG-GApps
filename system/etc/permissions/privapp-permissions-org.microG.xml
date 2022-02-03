@@ -3,8 +3,16 @@
     <privapp-permissions package="com.google.android.gms">
         <permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>
         <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
-	    <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
-	    <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+	<permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
+	<permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.google.android.gsf">
+        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
+    </privapp-permissions>
+    <privapp-permissions package="org.microg.gms.droidguard">
     </privapp-permissions>
     <!-- For real Play Store; Fake Store will not use all except one (FAKE_PACKAGE_SIGNATURE) of them -->
     <privapp-permissions package="com.android.vending">
@@ -26,13 +34,13 @@
         <permission name="android.permission.INTERACT_ACROSS_USERS" />
         <permission name="android.permission.MANAGE_USERS" />
         <permission name="android.permission.PACKAGE_USAGE_STATS" />
-        <deny-permission name="android.permission.PACKAGE_VERIFICATION_AGENT" />
-        <deny-permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.PACKAGE_VERIFICATION_AGENT" />
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
         <permission name="android.permission.READ_RUNTIME_PROFILES" />
         <permission name="android.permission.REAL_GET_TASKS" />
         <permission name="android.permission.REBOOT" />
         <permission name="android.permission.SEND_DEVICE_CUSTOMIZATION_READY" />
-        <deny-permission name="android.permission.SEND_SMS_NO_CONFIRMATION" />
+        <permission name="android.permission.SEND_SMS_NO_CONFIRMATION" />
         <permission name="android.permission.SET_PREFERRED_APPLICATIONS" />
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
         <permission name="android.permission.STATUS_BAR" />
