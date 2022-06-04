@@ -13,7 +13,7 @@ module structure:
 #### /system/priv-app:
 - DroidGuard
 - Google PlayStore
-- Gogle Service Framework Proxy
+- Google Service Framework Proxy
 
 #### /system/framework:
 - maps.jar
