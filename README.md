@@ -1,16 +1,15 @@
 # microG-Gapps
 
-**Summary**: This repo contains microG build assets ([source](https://microg.org/download.html)), it is based on latest stable release "com.google.android.gms **v0.2.24.214816**". 
+**Summary**: This repo contains microG build assets ([source](https://microg.org/download.html)), it is based on latest stable release "com.google.android.gms **v0.2.25.223616**". 
 
 module structure:
 #### /system/app:
-- GsmCore
-- Google Calendar Sync
-- Google Contact Sync
+- DAVx5 Sync Provider for contacts and calendar
 - Nomination Network Location Provider
-- Radiocell Network Location Provider
+- SpotComms Network Location Provider
 
 #### /system/priv-app:
+- GsmCore
 - DroidGuard
 - Google PlayStore
 - Google Service Framework Proxy
