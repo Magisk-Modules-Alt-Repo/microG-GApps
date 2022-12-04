@@ -31,7 +31,6 @@ supported feature [list](https://github.com/microg/android_packages_apps_GmsCore
 
 ## Installation
 once flashed the module, system reboot then:
-- manually add sync services grants
 - configure microG
 - add your google account
 - Enjoy!
