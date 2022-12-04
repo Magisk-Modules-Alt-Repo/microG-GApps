@@ -6,4 +6,4 @@ else
   rm -r "$MODPATH/system/priv-app/Phonesky"
 fi
 
-pm install "$MODPATH/system/priv-app/GmsCore/com.google.android.gms.apk" > /dev/null 2>&1
+pm install "$MODPATH/system/priv-app/GmsCore/GmsCore.apk" > /dev/null 2>&1
