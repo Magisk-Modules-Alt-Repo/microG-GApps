@@ -1,0 +1,27 @@
+<permissions>
+
+	<privapp-permissions package="com.google.android.syncadapters.contacts">
+		<permission name="android.permission.READ_CONTACTS"/>
+		<permission name="android.permission.WRITE_CONTACTS"/>
+		<permission name="android.permission.USE_CREDENTIALS"/>
+		<permission name="android.permission.GET_ACCOUNTS"/>
+		<permission name="android.permission.READ_SYNC_STATS"/>
+		<permission name="android.permission.READ_SYNC_SETTINGS"/>
+		<permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+		<permission name="android.permission.WRITE_SYNC_SETTINGS"/>
+		<permission name="android.permission.INTERACT_ACROSS_USERS"/>
+		<permission name="android.permission.INTERNET"/>
+		<permission name="android.permission.ACCESS_NETWORK_STATE"/>
+		<permission name="com.google.android.googleapps.permission.GOOGLE_AUTH"/>
+		<permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.cp"/>
+		<permission name="com.google.android.gms.permission.CONTACTS_SYNC_DELEGATION"/>
+		<permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+		<permission name="com.google.android.providers.gsf.permission.WRITE_GSERVICES"/>
+		<permission name="android.permission.SUBSCRIBED_FEEDS_READ"/>
+		<permission name="android.permission.SUBSCRIBED_FEEDS_WRITE"/>
+		<permission name="com.google.android.syncadapters.contacts.permission.GAL_SEARCH"/>
+		<permission name="android.permission.WAKE_LOCK"/>
+    </privapp-permissions>
+
+</permissions>
+
