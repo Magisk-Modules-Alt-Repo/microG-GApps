@@ -1,0 +1,67 @@
+<permissions>
+
+	<privapp-permissions package="com.android.vending">
+		<permission name="com.android.vending.permission.C2D_MESSAGE"/>
+		<permission name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE"/>
+		<permission name="com.google.android.c2dm.permission.RECEIVE"/>
+		<permission name="android.permission.GET_TASKS"/>
+		<permission name="android.permission.REAL_GET_TASKS"/>
+		<permission name="android.permission.INTERNET"/>
+		<permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+		<permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+		<permission name="android.permission.CLEAR_APP_CACHE"/>
+		<permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+		<permission name="android.permission.ACCESS_NETWORK_STATE"/>
+		<permission name="android.permission.READ_PHONE_STATE"/>
+		<permission name="android.permission.CHANGE_NETWORK_STATE"/>
+		<permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+		<permission name="com.google.android.providers.gsf.permission.WRITE_GSERVICES"/>
+		<permission name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+		<permission name="android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED"/>
+		<permission name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"/>
+		<permission name="android.permission.INSTALL_PACKAGES"/>
+		<permission name="android.permission.DELETE_PACKAGES"/>
+		<permission name="android.permission.NFC"/>
+		<permission name="com.android.vending.INTENT_VENDING_ONLY"/>
+		<permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+		<permission name="android.permission.SEND_SMS"/>
+		<permission name="android.permission.SEND_SMS_NO_CONFIRMATION"/>
+		<permission name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+		<permission name="android.permission.STATUS_BAR"/>
+		<permission name="com.android.vending.TOS_ACKED"/>
+		<permission name="android.permission.WAKE_LOCK"/>
+		<permission name="android.permission.ACCESS_FINE_LOCATION"/>
+		<permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+		<permission name="android.permission.ACCESS_WIFI_STATE"/>
+		<permission name="android.permission.USE_FINGERPRINT"/>
+		<permission name="android.permission.GET_PACKAGE_IMPORTANCE"/>
+		<permission name="android.permission.GET_ACCOUNTS"/>
+		<permission name="android.permission.MANAGE_ACCOUNTS"/>
+		<permission name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+		<permission name="android.permission.USE_CREDENTIALS"/>
+		<permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+		<permission name="android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS"/>
+		<permission name="android.permission.GRANT_RUNTIME_PERMISSIONS"/>
+		<permission name="android.permission.REVOKE_RUNTIME_PERMISSIONS"/>
+		<permission name="android.permission.PACKAGE_USAGE_STATS"/>
+		<permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+		<permission name="android.permission.BATTERY_STATS"/>
+		<permission name="android.permission.PACKAGE_VERIFICATION_AGENT"/>
+		<permission name="android.permission.MANAGE_USERS"/>
+		<permission name="android.permission.INTERACT_ACROSS_USERS"/>
+		<permission name="android.permission.WRITE_SETTINGS"/>
+		<permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+		<permission name="android.permission.FORCE_STOP_PACKAGES"/>
+		<permission name="com.google.android.gms.permission.CAR"/>
+		<permission name="com.google.android.gms.permission.AD_ID_NOTIFICATION"/>
+		<permission name="android.permission.GET_PACKAGE_SIZE"/>
+		<permission name="com.google.android.gms.WRITE_VERIFY_APPS_CONSENT"/>
+		<permission name="com.google.android.partnersetup.permission.WRITE_APP_PROVIDER"/>
+		<permission name="android.permission.RECEIVE_SMS"/>
+		<permission name="android.permission.READ_SMS"/>
+		<permission name="android.permission.READ_CONTACTS"/>
+		<permission name="android.permission.READ_CALL_LOG"/>
+    </privapp-permissions>
+
+</permissions>
+
