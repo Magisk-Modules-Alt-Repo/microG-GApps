@@ -22,7 +22,7 @@ fi
 chmod 777 $curl
 
 echo " |                                                    | "
-echo " |    downaloding microG Services Core...             | "
+echo " |    downloading microG Services Core...             | "
 mkdir "$MODPATH/system/priv-app/microGServicesCore"
 $curl -o "$MODPATH/system/priv-app/microGServicesCore/base.apk" -k "https://microg.org/fdroid/repo/com.google.android.gms-231657056.apk"
 echo " |                                                    | "
